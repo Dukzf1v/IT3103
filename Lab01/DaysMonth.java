@@ -68,7 +68,7 @@ public class DaysMonth {
             case "December": case "Dec.": case "Dec": case "12":
                 return 31;
             default:
-                return 0; // Invalid month
+                return 0; 
         }
     }
 }
